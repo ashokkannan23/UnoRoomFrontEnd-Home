@@ -193,7 +193,7 @@ class HomeNavBarwithSearch extends Component {
                         <div className="row">
                             {amenitiesdata.map((amenities, index) => (
                                 <div key={index} className="col-lg-4 col-md-4">
-                                    <span className="icon-hover">{amenitiesUiMap[amenities].img + '' + amenitiesUiMap[amenities].name}</span>
+                                    <p className="icon-hover">{amenitiesUiMap[amenities].img + '' +  amenitiesUiMap[amenities].name}</p> 
                                 </div>
                             ))}
                         </div>
