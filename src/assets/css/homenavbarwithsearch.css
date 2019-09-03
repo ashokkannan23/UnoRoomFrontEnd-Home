@@ -1,0 +1,90 @@
+
+    
+.jumbotron-fluid {
+    background-image:url("../image/renaissance-new-york-midtown-standard-king-room-dark-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 10px 0 40px 0;
+    margin-bottom: 0px;
+    }
+    .icon-hover{ 
+        font-size:15px !important;
+        text-align:center;
+        vertical-align: middle;
+        border:1px solid red;
+        border-radius:7px;
+        padding:5px;
+        margin-top:10px;
+       }
+.red {
+    color: red;
+  }
+.center {
+   float: none !important;
+   margin: 0 auto !important;
+   width:75%; 
+}
+.t-datepicker {
+    width: 30% !important;
+}
+/* .form-inline {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+} */
+.form-inline #propertyname {
+    width: auto;
+}
+#propertyname {
+    border-radius: 10px 0 0 10px;
+}
+.form-inline button {
+    padding: 10px 20px;
+    background-color: #FF0000;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    margin: 5px 0 5px 0;
+}
+.form-inline select {
+    vertical-align: middle;
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #000;
+}
+#roomType option {
+    padding: 10px;
+}
+#search {
+    border-radius: 0 10px 10px 0;
+}
+.bg-light{
+    background: none;
+}
+#Address li{
+    list-style-type: none;
+    color:#fff;
+}
+.navbar-light .navbar-toggler{
+    color: rgba(250, 246, 246, 0.5);
+    border-color: rgba(250, 246, 246, 0.5);
+}
+@media (max-width:1200px) {
+    .form-inline select,
+    .form-inline button,
+    .form-inline #propertyname {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .t-datepicker {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
